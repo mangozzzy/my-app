@@ -1,10 +1,11 @@
-import Image from "next/image";
 import Header from "./component/Header";
+import Footer from "./component/Footer";
+
 export default function Home() {
   return (
     <div>
       <Header />
-      <div>footer</div>
+      <Footer />
     </div>
 
   )
